@@ -613,7 +613,7 @@ a {
   background: rgba(139, 92, 246, 0.1);
   border: 1px solid rgba(139, 92, 246, 0.3);
   border-radius: 12px;
-  font-size: 0.7rem;    /* was 0.8 before */
+  font-size: 0.7rem; /* was 0.8 before */
   color: var(--secondary-color);
   transition: transform 0.3s ease-out;
 }
@@ -757,38 +757,50 @@ a {
   filter: drop-shadow(0 0 10px turquoise);
 }
 
-body:has(.first-experience:hover) .first-dot {
+body:has(.ois-experience:hover) .ois-dot {
   background: turquoise;
   transform: scale(0.9);
   border: 3px solid turquoise;
   filter: drop-shadow(0 0 10px turquoise);
 }
 
-body:has(.first-dot:hover) .first-experience {
+body:has(.ois-dot:hover) .ois-experience {
   filter: drop-shadow(0 0 10px turquoise);
   transform: translateY(-8px);
 }
 
-body:has(.second-experience:hover) .second-dot {
+body:has(.ta-experience:hover) .ta-dot {
   background: turquoise;
   transform: scale(0.9);
   border: 3px solid turquoise;
   filter: drop-shadow(0 0 10px turquoise);
 }
 
-body:has(.second-dot:hover) .second-experience {
+body:has(.ta-dot:hover) .ta-experience {
   filter: drop-shadow(0 0 10px turquoise);
   transform: translateY(-8px);
 }
 
-body:has(.third-experience:hover) .third-dot {
+body:has(.harmony-experience:hover) .harmony-dot {
   background: turquoise;
   transform: scale(0.9);
   border: 3px solid turquoise;
   filter: drop-shadow(0 0 10px turquoise);
 }
 
-body:has(.third-dot:hover) .third-experience {
+body:has(.harmony-dot:hover) .harmony-experience {
+  filter: drop-shadow(0 0 10px turquoise);
+  transform: translateY(-8px);
+}
+
+body:has(.akira-experience:hover) .akira-dot {
+  background: turquoise;
+  transform: scale(0.9);
+  border: 3px solid turquoise;
+  filter: drop-shadow(0 0 10px turquoise);
+}
+
+body:has(.akira-dot:hover) .akira-experience {
   filter: drop-shadow(0 0 10px turquoise);
   transform: translateY(-8px);
 }
